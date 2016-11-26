@@ -276,6 +276,75 @@ button{
 
 /*                SECTION 9-11  START            */
 
+.cons {
+	background: #CFCFCF;
+	box-shadow: 0 0 10px grey;
+}
 
+.cons_up {
+	text-align: center;
+}
+
+.cons_main {
+	color: #000000;
+}
+
+.cons_headline {
+	color: #24BCE1;
+}
+
+.con_down_icon {
+	background-image: url(../img/icon.png);
+	width: 200px;
+	height: 178px;
+	border-radius: 50%;
+	box-shadow: -2px 2px 10px grey;
+}
+
+.con_down_icon {
+	margin: 5vw 8.7vw;
+}
+
+.epil_footer {
+	background: #000000;
+	box-shadow: 0 0 10px grey;
+}
+
+.epil_footer_main, .epil_footer_p, span.epil_footer_right_main1, span.epil_footer_right_main2 {
+	color: #FFFFFF;
+}
+
+.epil_footer_left, .epil_footer_right {
+	padding: 3vw 8vw;
+}
+.epil_footer_h2 {
+	margin-bottom: 3vw;
+}
+
+span.epil_footer_right_main1 {
+	margin: 3vw 0 0 2vw;
+}
+
+span.epil_footer_right_main2 {
+	margin: 0 0 0 8vw;
+}
+
+.epil_footer_headline {
+	color: #24BCE1;
+}
+
+.epil_footer_button {
+	margin: 5vw auto;
+	background: black;
+	color: #FFFFFF;
+}
+
+.legalese {
+	background: #151414;
+	color: #FFFFFF;
+	text-align: center;
+	height: 30px;
+	padding: 5px 0 0 0;
+}
 
 /*                SECTION 9-11  END            */
