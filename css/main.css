@@ -49,6 +49,13 @@
   background-image: url(../img/search.png);
   background-repeat: no-repeat;
 }
+.navsearch::-moz-placeholder {
+  /* Firefox 19+ */
+  color: transparent;
+  background-image: url(../img/search.png);
+  background-repeat: no-repeat; 
+}
+
 .navsearch{
 	height: 25px;
   width: 200px;
