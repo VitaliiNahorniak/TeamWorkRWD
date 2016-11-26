@@ -181,6 +181,91 @@
 
 
 /*                SECTION 5-8  START            */
+.mainhead {
+	display: flex;
+	justify-content: center;
+
+}
+.first {
+	margin-right: 10px;
+	font-size: 20px;
+}
+.second {
+	font-size: 20px;
+	color: #16b9e8;
+}
+.blue{
+	color:lightblue;
+}
+.space {
+	margin-top: -20px;
+}
+.botcol{
+	margin-top: 40px;
+}
+.center {
+	left: 20px;
+}
+.float {
+	float: left;
+	margin: 10px;
+}
+.back {
+	background-color: black;
+	color:white;
+	margin-top: 40px;
+}
+.marg {
+	margin: 30px;
+}
+.marg1 {
+	margin: 30px 0px 30px 0px;
+}
+button{
+	background: black;
+	color:lightblue;
+	font-size: 20px;
+	border: 2px solid lightblue;
+	padding: 8px  10px;
+	margin: 10px 0 40px 0;
+}
+.marg2 {
+	left: 60px;
+	margin-bottom: 15px;
+}
+.second2 {
+	font-size: 20px;
+	color: #16b9e8;
+	margin-left: 5px;
+}
+.first2 {
+	margin: 10px;
+	margin-right: 0px;
+	font-size: 20px;
+}
+.size1 {
+	font-size: 14px;
+}
+.blue1 {
+	font-size: 20px;
+	
+}
+.right {
+	position: absolute;
+	left: 885px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 10px;
+	background: #babec4;
+	width: 220px;
+	height: 610px;
+	display: flex;
+	justify-content: center;
+	padding: 150px 0px 0px 0px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 23px;
+}
+
 
 
 
