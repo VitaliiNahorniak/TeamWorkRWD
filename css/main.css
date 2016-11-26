@@ -3,7 +3,170 @@
 }
 /*                SECTION 1-4  START            */
 
+/* section 1 top header */
+.sectopheader{
+	height: 60px;
+}
+.logo{
+	height: 60px;
+}
+.logoimg{
+	height: 60px;
+	width: 320px;
+	background: url(../img/complogo.png) center no-repeat;
+}
+.logoimg:hover{
+	background: url(../img/complogoh.png) center no-repeat;
+}
+.topnav{
+	padding-top: 17px;
+	height: 60px;
+	/*background: red;*/
+}
+.topnav-menu ul{
+	list-style: none;
+	float: right;
+}
+.tabs li{
+	float: left;
+	margin-right: 50px;
+	font-size: 20px;	
+}
+.tabs li .active{
+	color: #4882c3;
+}
+.tabs li a{
+	color: #717272;
+}
+.tabs li a:hover{
+	color: #4882c3;
+}
+.tabs li:nth-child(4){
+	margin-right: 10px;
+}
+.navsearch::-webkit-input-placeholder {
+  color: transparent;
+  background-image: url(../img/search.png);
+  background-repeat: no-repeat;
+}
+.navsearch{
+	height: 25px;
+  width: 200px;
+	border: 1px solid transparent;
+}
+/* section 1 top header end */
 
+/* section 2 banner */
+
+.bannerwrap1{
+	padding: 0;
+	height: 500px;
+	background: #adadad;
+}
+.bannertext{
+	text-align: center;
+	margin-top: 90px;
+	color: white;
+	/*background: red;*/
+}
+.text1 p{
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+.bannertext h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.bannerbtn{
+	width: 350px;
+	margin-top: 40px;
+	
+}
+.bannerimg{
+	background-image: url(../img/bigimg.png);
+	 background-repeat: no-repeat;
+	height: 450px;
+	margin-top: 50px;
+}
+/* section 2 banner end */
+
+/* section 3 menu */
+.navmenu{
+	height: 90px;
+	/*background: red;*/
+
+}
+.navmenu ul{
+	list-style: none;
+	float: right;
+}
+.wrapmenu{
+	
+	padding-right: 150px;
+
+	
+}
+.menutabs li{
+	padding-top: 10px;
+	
+	text-align: center;
+	margin-top: 20px;
+	width: 150px;
+	height: 50px;
+	float: left;
+	margin-right: 90px;
+	font-size: 20px;
+	background: #cdcccc;	
+}
+.menutabs li:first-child{
+	padding-top: 15px;
+	width: 200px;
+	color: black;
+	font-weight: bold;
+	background: none;
+}
+/* section 3 menu end */
+
+/* section 4 */
+.content{
+	height: 250px;
+	background: #16b9e8;
+	color: white;
+	padding-left: 300px;
+}
+
+.leftcont{
+	margin-top: 20px;
+}
+.limg{
+	margin-left: -10px;
+	margin-top: 10px;
+	width: 228px;
+	height: 96px;
+	display: inline-block;
+	background-image: url(../img/itunes.png); 
+}
+
+.rimg{
+	width: 228px;
+	height: 96px;
+	display: inline-block;
+	margin-left: 20px;
+	background-image: url(../img/stitcher.png); 
+}
+.rightcont{
+	margin-top: 30px;
+	font-size: 17px;
+	/*background: red;*/
+}
+.wrapcont{
+	margin-top: 20px;
+}
+.wrapcont p{
+	margin-left: 20px;
+}
+/* section 4  end */
 
 /*                SECTION 1-4  END            */
 
