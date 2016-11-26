@@ -252,7 +252,7 @@ button{
 }
 .right {
 	position: absolute;
-	left: 885px;
+	left: 0px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	margin-top: 10px;
 	background: #babec4;
