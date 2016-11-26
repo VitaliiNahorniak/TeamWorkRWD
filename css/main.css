@@ -294,15 +294,17 @@ button{
 }
 
 .con_down_icon {
+	display: inline-block;
 	background-image: url(../img/icon.png);
 	width: 200px;
 	height: 178px;
 	border-radius: 50%;
 	box-shadow: -2px 2px 10px grey;
+	margin: 1vw 5vw 2vw 5vw;
 }
 
-.con_down_icon {
-	margin: 5vw 8.7vw;
+.cons_down {
+	text-align: center;
 }
 
 .epil_footer {
@@ -317,16 +319,13 @@ button{
 .epil_footer_left, .epil_footer_right {
 	padding: 3vw 8vw;
 }
+
+.epil_footer_right {
+	text-align: center;
+}
+
 .epil_footer_h2 {
 	margin-bottom: 3vw;
-}
-
-span.epil_footer_right_main1 {
-	margin: 3vw 0 0 2vw;
-}
-
-span.epil_footer_right_main2 {
-	margin: 0 0 0 8vw;
 }
 
 .epil_footer_headline {
